@@ -19,7 +19,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-model = tf.keras.models.load_model('my_model.hdf5')
+model = tf.keras.models.load_model('Wiss_model_déploiement.hdf5')
 
 st.write("""
          # Cancer Prediction
